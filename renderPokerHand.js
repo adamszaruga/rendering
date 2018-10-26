@@ -1,7 +1,6 @@
 
 function renderPokerHand(pokerHand) {
-    // HINT: You can use <img /> tags that point to these playing card images: 
-    // https://commons.wikimedia.org/wiki/Category:SVG_playing_cards
+    // HINT: You can use <img /> tags that point to the card images in the /cards folder
     return `
         <div class="text-center mt-5">
             <code>${JSON.stringify(pokerHand)}</code>
